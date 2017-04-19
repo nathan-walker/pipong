@@ -138,6 +138,7 @@ def gameLoop(sense, dotColor):
                 elif out == 2:
                         return (0, 255, 0)
 
+		time.sleep(0.05)
 
 sense = SenseHat()
 sense.low_light = True
